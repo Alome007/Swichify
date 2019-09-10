@@ -46,7 +46,7 @@ public class splash extends AppCompatActivity {
                 final Animation out = new AlphaAnimation(1.0f, 0.0f);
                 out.setDuration(1000);
                 urbler.startAnimation(out);
-                Intent i = new Intent(splash.this, MainActivity.class);
+                Intent i = new Intent(splash.this, swichify.class);
                 startActivity(i);
                 finish();
             }
