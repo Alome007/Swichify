@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/modal"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="300dp">
+    <ImageView
+        android:layout_width="@dimen/_50sdp"
+        android:layout_gravity="center"
+        android:rotation="180"
+        android:layout_marginTop="@dimen/_minus1sdp"
+        android:src="@drawable/modal2"
+        android:layout_height="9dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enter Device ID"
+        android:fontFamily="@raw/product"
+        android:textColor="#000"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="@dimen/_150sdp"
+        android:layout_gravity="center"
+        android:maxLength="10"
+        android:id="@+id/edit"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Whats my Device ID ?"
+        android:layout_marginTop="@dimen/_1sdp"
+        android:textColor="#154E94"
+        android:fontFamily="@raw/product"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="Buy a Device"
+        android:visibility="invisible"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:id="@+id/cart"
+        android:layout_height="wrap_content" />
+</LinearLayout>
