@@ -1,3 +1,5 @@
 # Swichify
-The Official #Swichify App for for my IoT Project..
-Feel free to contribute ... 
+The Official #Swichify App for my IoT Project..
+
+## Contribution
+Feel Free to Contribute ... 
